@@ -2,10 +2,26 @@
 $arUrlRewrite=array (
   1 => 
   array (
+    'CONDITION' => '#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
+    'RULE' => 'alias=$1',
+    'ID' => NULL,
+    'PATH' => '/desktop_app/router.php',
+    'SORT' => 100,
+  ),
+  3 => 
+  array (
     'CONDITION' => '#^/bitrix/services/ymarket/#',
     'RULE' => '',
     'ID' => '',
     'PATH' => '/bitrix/services/ymarket/index.php',
+    'SORT' => 100,
+  ),
+  2 => 
+  array (
+    'CONDITION' => '#^/online/(/?)([^/]*)#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
   0 => 
@@ -16,7 +32,7 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/stssync/calendar/index.php',
     'SORT' => 100,
   ),
-  4 => 
+  6 => 
   array (
     'CONDITION' => '#^/personal/order/#',
     'RULE' => '',
@@ -24,7 +40,7 @@ $arUrlRewrite=array (
     'PATH' => '/personal/order/index.php',
     'SORT' => 100,
   ),
-  5 => 
+  7 => 
   array (
     'CONDITION' => '#^/personal/#',
     'RULE' => '',
@@ -32,7 +48,7 @@ $arUrlRewrite=array (
     'PATH' => '/personal/index.php',
     'SORT' => 100,
   ),
-  3 => 
+  9 => 
   array (
     'CONDITION' => '#^/catalog/#',
     'RULE' => '',
@@ -40,7 +56,7 @@ $arUrlRewrite=array (
     'PATH' => '/catalog/index.php',
     'SORT' => 100,
   ),
-  6 => 
+  8 => 
   array (
     'CONDITION' => '#^/store/#',
     'RULE' => '',
@@ -48,7 +64,7 @@ $arUrlRewrite=array (
     'PATH' => '/store/index.php',
     'SORT' => 100,
   ),
-  2 => 
+  4 => 
   array (
     'CONDITION' => '#^/news/#',
     'RULE' => '',

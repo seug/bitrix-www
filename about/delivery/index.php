@@ -45,7 +45,7 @@ $APPLICATION->SetTitle("Доставка");
 
 		<p><b>Служба доставки</b>: 8 (495) 212 85 06 (многоканальный).</p>
 
-		<p><b>Электронная почта</b>: <a href="mailto:sale@192.168.0.103">sale@192.168.0.103</a></p>
+		<p><b>Электронная почта</b>: <a href="mailto:sale@192.168.0.104">sale@192.168.0.104</a></p>
 
 		<p><b>Skype</b>: <a href="skype:shipping.example.ru">shipping.example.ru</a></p>
 	</div>
